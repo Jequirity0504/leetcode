@@ -3,3 +3,18 @@ $ git add tip_git
   git commit -m "tips of git command"
 $ git status	#find the files have been changed
 $ git diff git_tip #tell us what modification the file has been done
+  git diff HEAD -- git_tip # difference of working dierction and repository
+$ git log #display log of commit
+  git log --pretty=oneline # display commit id and contex of "  " in commit
+$ git reset --hard HEAD^
+  git reset --hard commit_id
+  # HEAD: current verison
+  # HEAD^: last version
+  # HEAD~100: version of last 100
+$ git reflog # keep track of your commit
+$ git checkout -- git_tip #discard changes in working dierctory
+  git reset HEAD git_tip  #give up the modification in stage(index)
+$ git rm git_tip
+  git commit -m "remove git_tip"
+
+
