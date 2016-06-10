@@ -16,5 +16,10 @@ $ git checkout -- git_tip #discard changes in working dierctory
   git reset HEAD git_tip  #give up the modification in stage(index)
 $ git rm git_tip
   git commit -m "remove git_tip"
+$ git remote add origin https://github.com/Jequirity0504/tips.git
+  git push -u origin master
+
+
+
 
 
