@@ -1,3 +1,5 @@
 $ git init #initialize empty git repository
 $ git add tip_git
   git commit -m "tips of git command"
+$ git status	#find the files have been changed
+$ git diff git_tip #tell us what modification the file has been done
