@@ -1,0 +1,3 @@
+$ git init #initialize empty git repository
+$ git add tip_git
+  git commit -m "tips of git command"
