@@ -16,10 +16,20 @@ $ git checkout -- git_tip #discard changes in working dierctory
   git reset HEAD git_tip  #give up the modification in stage(index)
 $ git rm git_tip
   git commit -m "remove git_tip"
-$ git remote add origin https://github.com/Jequirity0504/tips.git
+$ git remote add origin git@github.com:Jequirity0504/tips.git 
   git push -u origin master
+  git pull origin master
+  git push origin master
+  git remote rm origin ##fatal: remote origin already exists.
+$ git clone git@github.com:Jequirity0504/gitnew
 
-
+$ git checkout -b dev
+  git branch #check branch
+  git branch <name> #create branch
+  git checkout <name> #switch branch
+  git merge <name> #merge one branch to current branch
+  git branch -d <name> #delete branch
+ 
 
 
 
