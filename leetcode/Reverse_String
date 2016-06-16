@@ -6,6 +6,7 @@ public:
 	{
 	  s[i]=s1[s.size()-1-i);
 	}
+
 	return s;
     }
 
